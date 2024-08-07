@@ -47,8 +47,7 @@ section {
 
 /* Memories Section - GALLERY */
 #memories-section {
-    background-color: #f9d1b7;
-    background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
+    background-color: var(--pink);
     position: relative;
 }
 
