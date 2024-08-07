@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- BOILERPLATE -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>first</title>
+        <link
+            rel="stylesheet"
+            href="./styles.css"
+        />
+        <!-- 
+            Embedded font code (from Google Fonts)
+            Fonts:
+                Mrs Saint Delafield
+                La Belle Aurore
+                Caveat
+                Kalam
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&family=La+Belle+Aurore&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+            />
+    </head>
+
+    <body>
+
+        <section id="main-section">
+            <div class="message-container">
+                <h1>Happy Monthsary, <br> <span class="larger">My Dearest Lovey!</span></h1>
+                <a href="#memories-section" onClick="togglePlay()" class="scroll-down" address="true"></a>
+            </div>
+        </section>
+
+        <section id="memories-section">
+            <audio id="august" src="august.mp3" preload="auto">
+            </audio>
+            <div class="gallery">
+                <img src="image-1.png" alt="" />
+                <img src="image-2.png" alt="" />
+                <img src="image-3.jpg" alt="" />
+                <img src="image-4.jpg" alt="" />
+                <img src="image-5.jpg" alt="" />
+                <img src="image-6.jpg" alt="" />
+                <img src="image-7.jpg" alt="" />
+              </div>
+            <div class="message-for-her-container">
+                <p>I love you with every beat of my heart, no matter the distance between us.</p>
+            </div>
+        </section>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
